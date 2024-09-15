@@ -38,12 +38,7 @@ export const HeroSection = () => {
         >
           <SparkleIcon className="size-5 text-emerald-300/20" />
         </HeroOrbit>
-        <HeroOrbit
-          size={520}
-          rotation={-41}
-          shouldOrbit
-          orbitDuration="34s"
-        >
+        <HeroOrbit size={520} rotation={-41} shouldOrbit orbitDuration="34s">
           <div className="size-2 rounded-full bg-emerald-300/20" />
         </HeroOrbit>
         <HeroOrbit
@@ -76,12 +71,7 @@ export const HeroSection = () => {
         >
           <StarIcon className="size-8 text-emerald-300" />
         </HeroOrbit>
-        <HeroOrbit
-          size={650}
-          rotation={-5}
-          shouldOrbit
-          orbitDuration="42s"
-        >
+        <HeroOrbit size={650} rotation={-5} shouldOrbit orbitDuration="42s">
           <div className="size-2 rounded-full bg-emerald-300/20" />
         </HeroOrbit>
         <HeroOrbit
@@ -94,12 +84,7 @@ export const HeroSection = () => {
         >
           <SparkleIcon className="size-14 text-emerald-300/20" />
         </HeroOrbit>
-        <HeroOrbit
-          size={720}
-          rotation={85}
-          shouldOrbit
-          orbitDuration="46s"
-        >
+        <HeroOrbit size={720} rotation={85} shouldOrbit orbitDuration="46s">
           <div className="size-3 rounded-full bg-emerald-300/20" />
         </HeroOrbit>
         <HeroOrbit
@@ -142,16 +127,25 @@ export const HeroSection = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-          <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
-            <span className="font-semibold">Explore My Work</span>
-            <ArrowDown className="size-4" />
-          </button>
-
-          <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
-            <span>👋</span>
-            <span className="font-semibold">Let&apos;s Connect</span>
-          </button>
+        <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4 relative z-10">
+          <a
+            href="https://www.linkedin.com/in/himanshu-baliyan/"
+            target="_blank"
+          >
+            <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
+              <span className="font-semibold">Explore My Work</span>
+              <ArrowDown className="size-4" />
+            </button>
+          </a>
+          <a
+            href="mailto:himanshubaliyan4000@gmail.com?subject=Let's%20Connect"
+            target="_blank"
+          >
+            <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
+              <span>👋</span>
+              <span className="font-semibold">Let&apos;s Connect</span>
+            </button>
+          </a>
         </div>
       </div>
     </section>
