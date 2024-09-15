@@ -11,8 +11,8 @@ const calistoga = Calistoga({subsets: ['latin'],
                              weight: ["400"],});
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Created with the help of Frontend Tribe",
+  title: "Himanshu Baliyan",
+  description: "Full-Stack Developer",
 };
 
 export default function RootLayout({
