@@ -3,19 +3,19 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 const footerLinks = [
   {
     title: "LinkedIn",
-    href: "https://www.linkedin.com/in/himanshu-baliyan/",
+    link: "https://www.linkedin.com/in/himanshu-baliyan/",
   },
   {
     title: "GitHub",
-    href: "https://github.com/your-github-username",
+    link: "https://github.com/himanshubaliyan7",
   },
   {
     title: "Twitter",
-    href: "https://twitter.com/your-twitter-handle",
+    link: "https://x.com/HimanshuBaliy07",
   },
   {
     title: "Instagram",
-    href: "https://www.instagram.com/your-instagram-handle",
+    link: "https://www.instagram.com/he_man_su/",
   },
 ];
 
@@ -31,7 +31,7 @@ export const Footer = () => {
           <nav className="flex flex-col md:flex-row items-center gap-8">
             {footerLinks.map((link) => (
               <a
-                href={link.href}
+                href={link.link}
                 key={link.title}
                 target="_blank"
                 className="inline-flex items-center gap-1.5"
