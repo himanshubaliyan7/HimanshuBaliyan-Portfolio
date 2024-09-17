@@ -1,6 +1,6 @@
 import AIStartupLandingPage from "@/assets/images/Brainwave.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import lightSaasLandingPage from "@/assets/images/Metaversus.png";
+import ModernBankLandingPage from "@/assets/images/ModernBank.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -16,34 +16,36 @@ const portfolioProjects = [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
-      { title: "Tech Stack : React, Vite, TailwindCSS" },
+      { title: "Tech Stack : React, Vite, Tailwind CSS" },
     ],
     link: "https://project-brainwave-navy.vercel.app/",
     image: AIStartupLandingPage,
   },
   {
-    company: "Innovative Co",
+    company: "Hoobank Co",
+    year: "2023",
+    title: "Modern Bank Landing Page",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+      { title: "Tech Stack : React, Tailwind CSS, Vite" },
+    ],
+    link: "https://modern-bank-app-ashen.vercel.app/",
+    image: ModernBankLandingPage,
+  },
+  {
+    company: "Metaversus Co",
     year: "2021",
     title: "Light Saas Landing Page",
     results: [
       { title: "Boosted sales by 20%" },
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
+      { title: "Tech Stack : Next.JS, Tailwind CSS, Framer Motion" },
     ],
-    link: "#",
+    link: "https://project-metaversus-one.vercel.app/",
     image: lightSaasLandingPage,
-  },
-  {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
-    results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
-    ],
-    link: "#",
-    image: aiStartupLandingPage,
   },
 ];
 
