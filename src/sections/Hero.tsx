@@ -8,7 +8,10 @@ import { HeroOrbit } from "@/components/HeroOrbit";
 
 export const HeroSection = () => {
   return (
-    <section className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip" id="home">
+    <section
+      className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip"
+      id="home"
+    >
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
         <div
           className="absolute inset-0 -z-30 opacity-5"
@@ -111,7 +114,7 @@ export const HeroSection = () => {
               <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large" />
             </div>
             <span className="text-sm font-medium">
-              Available for new projects
+              Open to New Opportunities
             </span>
           </div>
         </div>
@@ -121,9 +124,9 @@ export const HeroSection = () => {
             Himanshu Baliyan
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            I specialize in transforming designs into functional,
-            high-performing web applications. Let&apos;s discuss your next
-            project.
+            A full-stack developer specializing in building scalable,
+            user-centric web applications. Eager to contribute expertise in
+            designing and developing high-performance solutions.
           </p>
         </div>
 
@@ -134,9 +137,7 @@ export const HeroSection = () => {
               <ArrowDown className="size-4" />
             </button>
           </a>
-          <a
-            href="mailto:himanshubaliyan4000@gmail.com?subject=Let's%20Connect"
-          >
+          <a href="mailto:himanshubaliyan4000@gmail.com?subject=Let's%20Connect">
             <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
               <span>👋</span>
               <span className="font-semibold">Let&apos;s Connect</span>
